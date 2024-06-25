@@ -1,0 +1,52 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "slots": [],
+          "name": "HelloWorldIntent",
+          "samples": [
+            "hola",
+            "como estás",
+            "di hola mundo",
+            "di hola",
+            "hola mundo"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "slots": [
+            {
+              "name": "temperatura",
+              "type": "AMAZON.NUMBER"
+            }
+          ],
+          "name": "ConversorTempIntent",
+          "samples": [
+            "Dime cuántos grados Fahrenheit son {temperatura} grados Celsius",
+            "Transforma {temperatura} grados Celsius a Fahrenheit",
+            "Cuanto es {temperatura} grados Celsius en Fahrenheit",
+            "Convierte {temperatura} grados Celsius a Fahrenheit"
+          ]
+        }
+      ],
+      "types": [],
+      "invocationName": "convertidor temperatura"
+    }
+  }
+}
